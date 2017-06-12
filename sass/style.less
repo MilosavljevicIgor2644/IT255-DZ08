@@ -1,0 +1,89 @@
+@color_1: darkgray;
+@color_2: white;
+@color_3: black;
+@color_4: darkgrey;
+@font_family_1: serif;
+@background_color_1: #373A3C;
+@background_color_2: grey;
+
+html {
+	overflow-x: hidden;
+}
+body {
+	overflow-x: hidden;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: @background_color_1;
+}
+li {
+	float: left;
+	a {
+		display: block;
+		color: @color_1;
+		text-align: center;
+		padding-left: 20px;
+		padding-right: 20px;
+		line-height: 50px;
+		vertical-align: middle;
+		text-decoration: none;
+		font-weight: 300;
+		font-family: @font_family_1;
+		&:hover {
+			color: @color_2;
+		}
+	}
+}
+#nav {
+	height: 50px;
+}
+#headbar {
+	font-size: 200%;
+	height: 50%;
+	background-color: @background_color_2;
+	background-image: url(../images/pozadina2.jpg);
+	background-size: cover;
+	img {
+		width: 100%;
+		height: auto;
+	}
+	p {
+		position: relative;
+		top: 37%;
+		left: 10%;
+	}
+}
+#name {
+	color: @color_3;
+	font-weight: bold;
+	font-size: 300%;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.card {
+	img {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	text-align: center;
+}
+#headline {
+	font-size: 150%;
+	color: @color_2;
+}
+#roba {
+	font-size: 300%;
+	text-align: center;
+}
+#moto {
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+#bottom {
+	background-color: @background_color_1;
+	height: 50px;
+	color: @color_4;
+	text-align: center;
+	line-height: 50px;
+}

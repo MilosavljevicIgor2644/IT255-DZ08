@@ -1,0 +1,81 @@
+html {
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #373a3c;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: darkgray;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 50px;
+  vertical-align: middle;
+  text-decoration: none;
+  font-weight: 300;
+  font-family: serif;
+}
+li a:hover {
+  color: white;
+}
+#nav {
+  height: 50px;
+}
+#headbar {
+  font-size: 200%;
+  height: 50%;
+  background-color: grey;
+  background-image: url(../images/pozadina2.jpg);
+  background-size: cover;
+}
+#headbar img {
+  width: 100%;
+  height: auto;
+}
+#headbar p {
+  position: relative;
+  top: 37%;
+  left: 10%;
+}
+#name {
+  color: black;
+  font-weight: bold;
+  font-size: 300%;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.card {
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+#headline {
+  font-size: 150%;
+  color: white;
+}
+#roba {
+  font-size: 300%;
+  text-align: center;
+}
+#moto {
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+#bottom {
+  background-color: #373a3c;
+  height: 50px;
+  color: darkgrey;
+  text-align: center;
+  line-height: 50px;
+}
